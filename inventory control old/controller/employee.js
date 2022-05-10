@@ -1,8 +1,5 @@
-let utilsPing=require('../../utils/ping');
-let utilsEmployee=require('../../utils/employee');
-//let responseBuilder = require('../../helper/responseBuilder');
-//const success  = require('../../helper/constant');
-
+let utilsPing=require('../utils/ping');
+let utilsEmployee=require('../utils/employee');
 function ping(request,response){
     let data=utilsPing.ping(request.query.number)
     response.send(data)

@@ -1,4 +1,3 @@
- 
 let responseBuilder=require('../helper/responseBuilder')
  function ping(number){
     let square=number*number;
@@ -14,4 +13,3 @@ let responseBuilder=require('../helper/responseBuilder')
        ping,
        
    }
-   
